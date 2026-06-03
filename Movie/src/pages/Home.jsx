@@ -7,7 +7,7 @@ import {fetchMovies} from '../services/api'
 const Home = () => {
     const [search, setSearch] =useState("")
     const [movies, setMovies] =useState([])
-    console.log(movies)
+
     const [loading, setLoading] =useState (false)
 
     const searchMovies = async () => {
